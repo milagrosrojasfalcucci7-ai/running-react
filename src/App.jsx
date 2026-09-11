@@ -6,7 +6,7 @@ function App() {
         <nav className="menu-nav">
           <img
             className="logo"
-            src="/img/logo2.jpg"
+            src={`${import.meta.env.BASE_URL}img/logo2.jpg`}
             alt="logo"
           />
 

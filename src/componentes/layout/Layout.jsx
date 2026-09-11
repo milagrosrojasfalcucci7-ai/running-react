@@ -9,7 +9,7 @@ function Layout() {
           <NavLink to="/">
             <img
               className="logo"
-              src="/img/logo2.jpg"
+               src={`${import.meta.env.BASE_URL}img/logo2.jpg`}
               alt="logo"
             />
           </NavLink>
@@ -23,6 +23,9 @@ function Layout() {
             </li>
             <li>
              <NavLink to="/galeria"> GALERIA</NavLink>
+            </li>
+            <li>
+              <NavLink to="/planes"> PLANES</NavLink>
             </li>
           </ul>
         </nav>
@@ -40,6 +43,9 @@ function Layout() {
 
     <li>
       <NavLink to="/formulario">FORMULARIO</NavLink>
+    </li> 
+    <li>
+      <NavLink to="/planes"> PLANES</NavLink>
     </li>
   </ul>
 

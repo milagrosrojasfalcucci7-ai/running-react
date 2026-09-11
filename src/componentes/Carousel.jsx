@@ -5,7 +5,7 @@ function Carousel() {
 
         <div className="carousel-item active">
           <img
-            src="/img/imgcentro.jpg"
+            src={`${import.meta.env.BASE_URL}img/imgcentro.jpg`}
             className="d-block w-100"
             alt="slide1"
           />
@@ -13,7 +13,7 @@ function Carousel() {
 
         <div className="carousel-item">
           <img
-            src="/img/centro.jpg"
+            src={`${import.meta.env.BASE_URL}img/centro.jpg`}
             className="d-block w-100"
             alt="slide2"
           />
@@ -21,7 +21,7 @@ function Carousel() {
 
         <div className="carousel-item">
           <img
-            src="/img/running.feli.trail.jpg"
+            src={`${import.meta.env.BASE_URL}img/running.feli.trail.jpg`}
             className="d-block w-100"
             alt="slide3"
           />

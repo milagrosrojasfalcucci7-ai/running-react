@@ -5,10 +5,10 @@ function KitCarrera() {
     <main>
       <h2 className="titulo-kit">KIT DE CARRERA</h2>
 
-      <img
-        src="/img/kitcarrera.jpg"
-        alt="kit-img"
-      />
+    <img
+    alt="kit-img"
+    src={`${import.meta.env.BASE_URL}img/kitcarrera.jpg`}
+    />
 
       <p className="sponsors">
         <span>GU Energy</span> |
