@@ -26,6 +26,9 @@ function App() {
             <li>
               <a href="#GALERIA">GALERIA</a>
             </li>
+            <li>
+              <a href="Plane">PLANES</a>
+            </li>
           </ul>
         </nav>
       </header>
